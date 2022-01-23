@@ -5,21 +5,21 @@
 
 # Elbow Curve
 * We determined the necessary cluster grouping by looping through the KMeans algorithm using a list of clusters and fitting our PCA data. The Elbow Curve visualization showed us that the curve was most aggressive at 4 clusters, giving using the necessary amount to fit to our model.
-![elbowcurve]()
+![elbowcurve](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/elbowcurve.PNG)
 
 # Prediction Array
 * Fitting this to our PCA data gave the necessary array to use for our cluster groupings.
-![array]()
+![array](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/array.PNG)
 
 # Creating our final database
 * We concatanated the CoinName data paired with our model array labels under the Class column. Did created the necessary table for our groupings. 
-![cluster]()
+![cluster](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/cluster.PNG)
 
 # 3d Visualization of the cluster grouping predictions
-![3d]()
+![3d](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/3d.PNG)
 
 # HVPLOT Table
-![hvplot]()
+![hvplot](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/hvplot.PNG)
 
 # 2d Scatter plot showing the four classes
-![2d]()
+![2d](https://github.com/dwest85/Cryptocurrencies/blob/main/markdownpics/2d.PNG)
